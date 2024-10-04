@@ -8,7 +8,7 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/NQMVD/boss-cli"
 documentation = "https://docs.rs/boss-cli"
 keywords = ["cli"]
-categories = ["command-lineutilities"]
+categories = ["command-line-utilities"]
 
 [[bin]]
 name = "boss"
