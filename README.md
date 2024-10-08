@@ -1,7 +1,7 @@
 # boss
 
 <div align="center">
-  <img alt="boss shot" src="./boss/.assets/boss_shot.png" />
+  <img alt="boss shot" src="./src/boss/.assets/boss_shot.png" />
   <br>
   <a href="https://github.com/NQMVD/boss?tab=readme-ov-file#details">
 	  <img alt="rust" src="https://img.shields.io/badge/Rust-fe7a15?style=for-the-badge&logo=rust&logoColor=white&logoSize=auto&labelColor=gray">
@@ -38,20 +38,20 @@ And when the new table format is finally implemented it will be as compact and c
   <summary>open sesame</summary>
 
   ## helix query
-  ![default.tape](./boss/.assets/tapes/default.gif)
+  ![default.tape](./src/boss/.assets/tapes/default.gif)
 
   ## helix query --interactive
-  ![interactive.tape](./boss/.assets/tapes/interactive.gif)
+  ![interactive.tape](./src/boss/.assets/tapes/interactive.gif)
 
   ## shows latest version and installed version
-  ![newversion.tape](./boss/.assets/tapes/newversion.gif)
+  ![newversion.tape](./src/boss/.assets/tapes/newversion.gif)
 
   ## stays quiet for scripts
-  ![quiet.tape](./boss/.assets/tapes/quiet.gif)
+  ![quiet.tape](./src/boss/.assets/tapes/quiet.gif)
 </details>
 
 ## Roadmap
-> theres also a [mind map](./boss/.assets/boss_map.jpg) that's a little more structured
+> theres also a [mind map](./src/boss/.assets/boss_map.jpg) that's a little more structured
 
 - [x] check all available package managers for a given package:
   - [x] if it's **installed**,
