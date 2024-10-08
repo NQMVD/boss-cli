@@ -1,18 +1,18 @@
 [package]
 name = "boss-cli"
-description = "The crate for boss"
-version = "0.6.1"
+description = "◇ The boss of package management."
+version = "0.6.2"
 edition = "2021"
 authors = ["Noah <noahbuergler@proton.me"]
 license = "GPL-3.0-or-later"
-repository = "https://github.com/NQMVD/boss-cli"
+repository = "https://github.com/NQMVD/boss"
 documentation = "https://docs.rs/boss-cli"
 keywords = ["cli"]
 categories = ["command-line-utilities"]
 
 [[bin]]
 name = "boss"
-path = "src/bin/main.rs"
+path = "src/boss/src/main.rs"
 
 [dependencies]
 clap = { version = "4.5.7", features = ["cargo"] }
