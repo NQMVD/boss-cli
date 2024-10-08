@@ -1,3 +1,3 @@
-[submodule "src/boss"]
-	path = src/boss
+[submodule "boss"]
+	path = boss
 	url = https://github.com/NQMVD/boss.git

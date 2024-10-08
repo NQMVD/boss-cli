@@ -12,7 +12,7 @@ categories = ["command-line-utilities"]
 
 [[bin]]
 name = "boss"
-path = "src/boss/src/main.rs"
+path = "boss/src/main.rs"
 
 [dependencies]
 clap = { version = "4.5.7", features = ["cargo"] }
