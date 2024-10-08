@@ -1,10 +1,12 @@
 _default:
     just --list
+    echo 'needs sd for search and replace after update'
 
 # updates the crate to be in sync with the main repo
 @update:
     git submodule update --remote
     cp ./boss/README.md ./README.md
+    sd './.assets' './boss/.assets' ./README.md
     cargo update
     # find a way to copy the version and dependencies
 
